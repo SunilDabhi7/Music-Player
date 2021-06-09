@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="queries.css">
+	<link rel="stylesheet" type="text/css" href="queries2.css">
+	<meta name="viewport" content="width=device-width initil-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="root">
+		<div class="nav"> <!--Header-Navigation-start-->
+			<div id="left-side" class="f-style1">
+				<div id="menu-bar">
+					<a href="#list-nav2"><span class="color-1"><i class="fas fa-bars"></i></span></a>
+				</div>
+				<div id="logo-header"><a href=""><img src="Images/img/logo-3.png" alt="logo"></a>
+				</div>
+				<div>
+					<ul id="list-nav">
+						<li><a href="" style="color:grey;">Home</a></li>
+						<li><a href="">Discover</a></li>
+						<li><a href="">Radio</a></li>
+						<li><a href="">Podcast</a></li>
+						<li class="hide"><a href="">My Playlist</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="right-side" class="f-style1">
+				<div id="sub-right-side">
+					<div id="search-container">
+						<table id="search-bar">
+							<td>
+								<a href=""><span><i class="fas fa-microphone"></i></span></a>
+							</td>
+							<td>
+								<form>
+									<input type="text" id="search" placeholder="Search">
+								</form>
+							</td>
+							<td>
+								<a href=""><span><i class="fas fa-search"></i></span></a>
+							</td>
+						</table>
+					</div>
+					<div id="notification">
+						<a href=""><span style="color: white;"><i class="fas fa-bell"></i></span></a>
+					</div>
+				</div>
+				<div id="profile">
+					<a href="#profile-details"><img src="Images/img/dp.jpg" alt="Profile"></a>
+				</div>
+			</div>
+			<div id="right-side2" class="f-style1">
+				<div>
+					<a href="#search-container2" style="color:white;"><span><i class="fas fa-search"></i></span></a>
+				</div>
+				<div id="notification2">
+					<a href=""><span style="color:white;"><i class="fas fa-bell"></i></span></a>
+				</div>
+				<div id="profile2">
+					<a href="#profile-details"><img src="Images/img/dp.jpg" alt="Profile"></a>
+				</div>
+			</div>
+		</div> <!--Header-Navigation-end-->
+		<div id="profile-details" class="f-style1">
+			<a href="#"><p><span><i class="fas fa-arrow-left"></i></span></p></a>
+			<a href=""><p>Profile</p></a>
+			<a href=""><p>View Plan</p></a>
+			<a href=""><p>Logout</p></a>
+		</div>
+		<div id="main"> <!-- Main-start --> 
+			<div id="main-content"> <!--main-content-start-->
+				<div id="corousel"> <!--corousel-start-->
+					<input type="radio" name="slider" id="s1">
+	  				<input type="radio" name="slider" id="s2">
+	  				<input type="radio" name="slider" id="s3" checked>
+	 				<input type="radio" name="slider" id="s4">
+				  	<input type="radio" name="slider" id="s5">
+				  	<label for="s1" id="slide1">
+				  		<img src="Images/Corousel/cor-img-1.jpg" height="100%" width="100%">
+				  	</label>
+				  	<label for="s2" id="slide2">
+				  	  	<img src="Images/Corousel/cor-img-2.jpg" height="100%" width="100%">
+				  	</label>
+				  	<label for="s3" id="slide3">
+				  	  	<img src="Images/Corousel/cor-img-3.jpg" height="100%" width="100%">
+				  	</label>
+				  	<label for="s4" id="slide4">
+				  	  	<img src="Images/Corousel/cor-img-4.jpg" height="100%" width="100%">
+				  	</label>
+				  	<label for="s5" id="slide5">
+				  	  	<img src="Images/Corousel/cor-img-5.jpg" height="100%" width="100%">
+				  	</label>
+				</div> <!--corousel-end-->
+				<div class="mt-15px"> <!--Favorite-->
+					<h3 class="color-1">Favorites</h3>
+				</div>
+				<div id="favorite" class="mt-15px"> 
+					<div class="album">
+						<div class="details">
+							<div class="poster">
+								<a href="#song-1"><img src="Images/Fav/pieces.jpg" class="img"></a>
+								<div class="middle">
+	    							<div class="play">
+	    								<a href="#song-1"><span style="color: white;"><i class="fas fa-play"></i></span></a>
+	    							</div>
+	  							</div>
+							</div>
+							<div class="name">
+								<h3 class="f-style1">Pieces</h3><br>
+								<p class="f-style1">Aug&nbsp;20,&nbsp;2013</p>
+							</div>
+						</div>
+						<div class="option">
+							<p class="f-style1"><a href="#opt1" style="color: white;"><i class="fas fa-ellipsis-h"></i></a></p><br>
+							<p class="f-style1">4.01</p>
+							<div class="more-option" id="opt1">
+								<div>
+									<a href="#"><span><i class="fas fa-play"></i></span><span>Play Now</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-sliders-h"></i></span><span>Add to Queue</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-sliders-h"></i></span><span>Add to Favorites</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-info-circle"></i></span><span>Info</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="album">
+						<div class="details">
+							<div class="poster">
+								<a href="#song-2"><img src="Images/Fav/memories.jpg" class="img"></a>
+								<div class="middle">
+	    							<div class="play">
+	    								<a href="#song-2"><span style="color: white;"><i class="fas fa-play"></i></span></a>
+	    							</div>
+	  							</div>
+							</div>
+							<div class="name">
+								<h3 class="f-style1">Memories</h3><br>
+								<p class="f-style1">Sept&nbsp;20,&nbsp;2019</p>
+							</div>
+						</div>
+						<div class="option">
+							<p class="f-style1"><a href="#opt2" style="color: white;"><i class="fas fa-ellipsis-h"></i></a></p><br>
+							<p class="f-style1">3.09</p>
+							<div class="more-option" id="opt2">
+								<div>
+									<a href="#"><span><i class="fas fa-play"></i></span><span>Play Now</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-sliders-h"></i></span><span>Add to Queue</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-sliders-h"></i></span><span>Add to Favorites</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-info-circle"></i></span><span>Info</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="album">
+						<div class="details">
+							<div class="poster">
+								<a href="#song-3"><img src="Images/Fav/happier.jpg" class="img"></a>
+								<div class="middle">
+	    							<div class="play">
+	    								<a href="#song-3"><span style="color: white;"><i class="fas fa-play"></i></span></a>
+	    							</div>
+	  							</div>
+							</div>
+							<div class="name">
+								<h3 class="f-style1">Happier</h3><br>
+								<p class="f-style1">Aug&nbsp;17,&nbsp;2019</p>
+							</div>
+						</div>
+						<div class="option">
+							<p class="f-style1"><a href="#opt3" style="color: white;"><i class="fas fa-ellipsis-h"></i></a></p><br>
+							<p class="f-style1">3.34</p>
+							<div class="more-option" id="opt3">
+								<div>
+									<a href="#"><span><i class="fas fa-play"></i></span><span>Play Now</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-sliders-h"></i></span><span>Add to Queue</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-sliders-h"></i></span><span>Add to Favorites</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-info-circle"></i></span><span>Info</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="album">
+						<div class="details">
+							<div class="poster">
+								<a href="#song-4"><img src="Images/Fav/everything.jpg" class="img"></a>
+								<div class="middle">
+	    							<div class="play">
+	    								<a href="#song-4"><span style="color: white;"><i class="fas fa-play"></i></span></a>
+	    							</div>
+	  							</div>
+							</div>
+							<div class="name">
+								<h3 class="f-style1">Everything</h3><br>
+								<p class="f-style1">March&nbsp;22,&nbsp;2005</p>
+							</div>
+						</div>
+						<div class="option">
+							<p class="f-style1"><a href="#opt4" style="color: white;"><i class="fas fa-ellipsis-h"></i></a></p><br>
+							<p class="f-style1">6.08</p>
+							<div class="more-option" id="opt4">
+								<div>
+									<a href="#"><span><i class="fas fa-play"></i></span><span>Play Now</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-sliders-h"></i></span><span>Add to Queue</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-sliders-h"></i></span><span>Add to Favorites</span></a>
+								</div>
+								<div>
+									<a href="#"><span><i class="fas fa-info-circle"></i></span><span>Info</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mt-15px"> <!-- Popular-artist -->
+					<h3 class="color-1">Popular Artists</h3>
+				</div>
+				<div id="p-artist" class="mt-15px">
+					<div class="artist">
+						<a href="artist.html"><img src="Images/artist/pa-1.jpg" class="img-art"></a>
+						<div class="middle-art">
+	    					<div class="play-art">
+	    						<a href="artist.html"><span style="color: white;"><i class="fas fa-play"></i></span></a>
+	    					</div>
+	  					</div>
+	  					<p class="color-1 fs-12px" style="text-align: center;">Justin Bieber</p>
+					</div>
+					<div class="artist">
+						<a href=""><img src="Images/artist/pa-4.jpg" class="img-art"></a>
+						<div class="middle-art">
+	    					<div class="play-art">
+	    						<a href=""><span style="color: white;"><i class="fas fa-play"></i></span></a>
+	    					</div>
+	  					</div>
+	  					<p class="color-1 fs-12px" style="text-align: center;">Lady Gaga</p>
+					</div>
+					<div class="artist">
+						<a href=""><img src="Images/artist/pa-2.jpg" class="img-art"></a>
+						<div class="middle-art">
+	    					<div class="play-art">
+	    						<a href=""><span style="color: white;"><i class="fas fa-play"></i></span></a>
+	    					</div>
+	  					</div>
+	  					<p class="color-1 fs-12px" style="text-align: center;">Drake</p>
+					</div>
+					<div class="artist">
+						<a href=""><img src="Images/artist/pa-5.jpg" class="img-art"></a>
+						<div class="middle-art">
+	    					<div class="play-art">
+	    						<a href=""><span style="color: white;"><i class="fas fa-play"></i></span></a>
+	    					</div>
+	  					</div>
+	  					<p class="color-1 fs-12px" style="text-align: center;">Ariana Grande</p>
+					</div>
+					<div class="artist">
+						<a href=""><img src="Images/artist/pa-3.jpg" class="img-art"></a>
+						<div class="middle-art">
+	    					<div class="play-art">
+	    						<a href=""><span style="color: white;"><i class="fas fa-play"></i></span></a>
+	    					</div>
+	  					</div>
+	  					<p class="color-1 fs-12px" style="text-align: center;">Bruno Mars</p>
+					</div>
+				</div>
+				<div id="occasion" class="mt-15px"><!--Music by Occasition-->
+					<div class="o-type">
+						<a href=""><img src="Images/occasion/o-2.jpg" class="o-img"></a>
+						<div class="middle-part">
+							<h3 class="f-style1" style="color:white;font-weight: 900;">Road Trip</h3>
+						</div>
+					</div>
+					<div class="o-type">
+						<a href=""><img src="Images/occasion/o-3.jpg" class="o-img"></a>
+						<div class="middle-part">
+							<h3 class="f-style1" style="color:white;font-weight: 900;">Electronic</h3>
+						</div>
+					</div>
+					<div class="o-type">
+						<a href=""><img src="Images/occasion/o-1.jpg" class="o-img"></a>
+						<div class="middle-part">
+							<h3 class="f-style1" style="color:white;font-weight: 900;">Party</h3>
+						</div>
+					</div>
+				</div>
+				<div class="mt-15px t-genre"> <!--Latest-->
+					<h3 class="color-1">Popular Genres</h3>
+				</div>
+				<div id="genre"> <!--Music-genre-->
+					<div id="g-title">
+						<img src="Images/genre/title.png">
+					</div>
+					<div id="g-detail">
+						<div class="g-name">
+							<img src="Images/genre/g-1.png" class="g-img">
+							<div class="g-text">
+								<h5 class="f-style1" style="color:white;font-weight: 900;">Retro</h5>
+							</div>
+						</div>
+						<div class="g-name">
+							<img src="Images/genre/g-2.jpg" class="g-img">
+							<div class="g-text">
+								<h5 class="f-style1" style="color:white;font-weight: 900;">Chill</h5>
+							</div>
+						</div>
+						<div class="g-name">
+							<img src="Images/genre/g-3.jpg" class="g-img">
+							<div class="g-text">
+								<h5 class="f-style1" style="color:black;font-weight: 900;">Love</h5>
+							</div>
+						</div>
+						<div class="g-name">
+							<img src="Images/genre/g-4.jpeg" class="g-img">
+							<div class="g-text">
+								<h5 class="f-style1" style="color:white;font-weight: 900;">Workout</h5>
+							</div>
+						</div>
+						<div class="g-name">
+							<img src="Images/genre/g-5.jpg" class="g-img">
+							<div class="g-text">
+								<h5 class="f-style1" style="color:white;font-weight: 900;">Rock</h5>
+							</div>
+						</div>
+						<div class="g-name">
+							<img src="Images/genre/g-6.jpg" class="g-img">
+							<div class="g-text">
+								<h5 class="f-style1" style="color:white;font-weight: 900;">Culture</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mt-15px"> <!--Latest-->
+					<h3 class="color-1">Latest English</h3>
+				</div>
+				<div id="e-latest" class="mt-15px">
+					<div class="e-detail">
+						<img src="Images/e-latest/e-1.jpg">
+						<h5>Hold On</h5>
+						<p>March 5, 2021</p>
+					</div>
+					<div class="e-detail">
+						<img src="Images/e-latest/e-2.jpg">
+						<h5>Follow You</h5>
+						<p>March 12, 2021</p>
+					</div>
+					<div class="e-detail">
+						<img src="Images/e-latest/e-3.jpg">
+						<h5>Intentions</h5>
+						<p>February 7, 2020</p>
+					</div>
+					<div class="e-detail">
+						<img src="Images/e-latest/e-1.jpg">
+						<h5>Hold On</h5>
+						<p>March 5, 2021</p>
+					</div>
+					<div class="e-detail">
+						<img src="Images/e-latest/e-2.jpg">
+						<h5>Follow You</h5>
+						<p>March 12, 2021</p>
+					</div>
+					<div class="e-detail">
+						<img src="Images/e-latest/e-3.jpg">
+						<h5>Intentions</h5>
+						<p>February 7, 2020</p>
+					</div>
+				</div>
+				<div class="mt-15px">
+					<h3 class="color-1">Latest Hindi</h3>
+				</div>
+				<div id="h-latest" class="mt-15px">
+					<div class="e-detail">
+						<img src="Images/h-latest/h-1.jpg">
+						<h5>Shor Machega</h5>
+						<p>19th March 2021</p>
+					</div>
+					<div class="e-detail">
+						<img src="Images/h-latest/h-2.jpg">
+						<h5>Chhor Denge</h5>
+						<p>4th February 2021</p>
+					</div>
+					<div class="e-detail">
+						<img src="Images/h-latest/h-3.jpg">
+						<h5>Taaron Ke</h5>
+						<p>16-Sep-2020</p>
+					</div>
+					<div class="e-detail">
+						<img src="Images/h-latest/h-1.jpg">
+						<h5>Shor Machega</h5>
+						<p>19th March 2021</p>
+					</div>
+					<div class="e-detail">
+						<img src="Images/h-latest/h-2.jpg">
+						<h5>Chhor Denge</h5>
+						<p>4th February 2021</p>
+					</div>
+					<div class="e-detail">
+						<img src="Images/h-latest/h-3.jpg">
+						<h5>Taaron Ke</h5>
+						<p>16-Sep-2020</p>
+					</div>
+				</div>
+			</div> <!--main-content-end-->
+			<div id="queue"> <!-- My-Playlist-start-->
+				<div id="q-title">
+					<div id="lp-title">
+						<h3 class="color-1">My Playlist</h3>
+					</div>
+					<div id="rp-title">
+						<span class="color-1">Queue</span>
+						<a href="#queue-option"><span class="color-1"><i class="fas fa-chevron-circle-down"></i></span></a>
+					</div>
+				</div>
+				<div id="queue-option">
+						<p><a href="#" class="f-style2">Playlist</a></p>					
+						<p><a href="#" class="f-style2">Favorite songs</a></p>
+				</div>
+				<div id="q-list">
+					<ol>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">01</span>&nbsp;
+										<span><img src="Images/queue/q-1.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span>Pieces</span><br>
+										<span>Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">02</span>&nbsp;
+										<span><img src="Images/queue/q-2.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Someone</span><br>
+										<span class="fs-12px">Boyce Avenue</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">03</span>&nbsp;
+										<span><img src="Images/queue/q-3.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Pieces</span><br>
+										<span class="fs-12px">Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">04</span>&nbsp;
+										<span><img src="Images/queue/q-4.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Pieces</span><br>
+										<span class="fs-12px">Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">05</span>&nbsp;
+										<span><img src="Images/queue/q-5.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Undiscovered</span><br>
+										<span class="fs-12px">James</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">06</span>&nbsp;
+										<span><img src="Images/queue/q-1.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span>Pieces</span><br>
+										<span>Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">07</span>&nbsp;
+										<span><img src="Images/queue/q-2.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Someone</span><br>
+										<span class="fs-12px">Boyce Avenue</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">08</span>&nbsp;
+										<span><img src="Images/queue/q-3.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Pieces</span><br>
+										<span class="fs-12px">Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">09</span>&nbsp;
+										<span><img src="Images/queue/q-4.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Pieces</span><br>
+										<span class="fs-12px">Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">10</span>&nbsp;
+										<span><img src="Images/queue/q-5.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Undiscovered</span><br>
+										<span class="fs-12px">James</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">11</span>&nbsp;
+										<span><img src="Images/queue/q-1.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span>Pieces</span><br>
+										<span>Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">12</span>&nbsp;
+										<span><img src="Images/queue/q-2.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Someone</span><br>
+										<span class="fs-12px">Boyce Avenue</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">13</span>&nbsp;
+										<span><img src="Images/queue/q-3.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Pieces</span><br>
+										<span class="fs-12px">Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">14</span>&nbsp;
+										<span><img src="Images/queue/q-4.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Pieces</span><br>
+										<span class="fs-12px">Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">15</span>&nbsp;
+										<span><img src="Images/queue/q-5.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Undiscovered</span><br>
+										<span class="fs-12px">James</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">16</span>&nbsp;
+										<span><img src="Images/queue/q-1.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span>Pieces</span><br>
+										<span>Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">17</span>&nbsp;
+										<span><img src="Images/queue/q-2.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Someone</span><br>
+										<span class="fs-12px">Boyce Avenue</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">18</span>&nbsp;
+										<span><img src="Images/queue/q-3.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Pieces</span><br>
+										<span class="fs-12px">Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">19</span>&nbsp;
+										<span><img src="Images/queue/q-4.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Pieces</span><br>
+										<span class="fs-12px">Andrew Belle</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-details">
+								<div class="left-details">
+									<div class="q-poster">
+										<span class="color-1">20</span>&nbsp;
+										<span><img src="Images/queue/q-5.jpg"></span>
+									</div>
+									<div class="song-details">
+										<span class="fs-12px">Undiscovered</span><br>
+										<span class="fs-12px">James</span>
+									</div>
+								</div>
+								<div class="right-details">
+									<a href=""><span class="color-1 fs-12px"><i class="far fa-heart"></i></span></a>
+								</div>
+							</div>
+						</li>
+					</ol>
+				</div>
+			</div> <!-- My-Playlist-end -->
+		</div> <!-- Main-end -->
+		<div id="song-1">
+			<a href="#"><span><i class="fas fa-arrow-alt-circle-left"></i></span></a>
+			<audio class="player" controls autoplay>
+				<source src="Music/song-1.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div id="song-2">
+			<a href="#"><span><i class="fas fa-arrow-alt-circle-left"></i></span></a>
+			<audio class="player" controls autoplay>
+				<source src="Music/song-2.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div id="song-3">
+			<a href="#"><span><i class="fas fa-arrow-alt-circle-left"></i></span></a>
+			<audio class="player" controls autoplay>
+				<source src="Music/song-3.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div id="song-4">
+			<a href="#"><span><i class="fas fa-arrow-alt-circle-left"></i></span></a>
+			<audio class="player" controls autoplay>
+				<source src="Music/song-4.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+		<!--For-media-queries-->
+		<div class="hide">
+			<ul id="list-nav2">
+				<li><a href="" style="color:grey;">Home</a></li>
+				<li><a href="">Discover</a></li>
+				<li><a href="">Radio</a></li>
+				<li><a href="">Podcast</a></li>
+				<li><a href="">My Playlist</a></li>
+				<li><a href="#">Back</a></li>
+			</ul>
+		</div>
+		<div id="search-container2">
+			<table id="search-bar2">
+				<td>
+					<a href=""><span><i class="fas fa-microphone"></i></span></a>
+				</td>
+				<td>
+					<form>
+						<input type="text" id="search2" placeholder="Search">
+					</form>
+				</td>
+					<td>
+						<a href="#"><span><i class="fas fa-search"></i></span></a>
+					</td>
+			</table>			
+		</div>
+	</div>
+</body>
+</html>

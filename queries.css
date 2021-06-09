@@ -1,0 +1,121 @@
+/*Media queries*/
+
+@media only screen and (max-width: 770px) {
+	#queue {
+		width: 0;
+	}
+	#main {
+		width: 90%;
+	}
+	#main-content {
+		width: 100%;
+	}
+	/*Navigation*/
+	.nav {
+		overflow: auto;
+		justify-content: flex-start;
+	}
+	#left-side {
+		justify-content: flex-start;
+	}
+	#menu-bar {
+		display: inline-block;
+		margin-left: 10px;
+	}
+	#logo-header {
+		margin-left: 10px;
+	}
+	#logo-header img {
+		height: 45px;
+		width: 80px;
+	}
+	#list-nav {
+		display: none;
+	}
+	#list-nav2 {
+		width: 0;
+		height: 0;
+		overflow: hidden;
+		transition: all .6s;
+	}
+	#list-nav2:target {
+		width: 100px;
+		height: 100%;
+		display: inline-block;
+		position: absolute;
+		background-image: linear-gradient (to right bottom, #221178, purple 50%)
+		left: 0;
+		top: 80px;
+		z-index: 2;
+	}
+	#list-nav2 li {
+		display: block;
+		border-bottom: 1px solid #cbd1cc;
+	}
+	#list-nav2 li a {
+		color: white;
+		font-weight: 600;
+		text-decoration: none;
+	}
+	#list-nav2 li a:hover {
+		color: black;
+	}
+	.hide {
+		visibility: visible;
+	}
+
+	/*Favorite*/
+	#favorite {
+		flex-wrap: nowrap;
+		overflow: auto;
+	}
+	.album {
+		margin-right: 10px;
+	}
+
+	/*Popular-artist*/
+	#p-artist {
+		overflow: auto;
+	}
+	.artist {
+		margin-right: 5px;
+	}
+
+	/*Occasion*/
+	.o-type {
+		width: 100px;
+		height: 50px;
+		margin-right: 5px;
+	}
+	.middle-part h3 {
+		font-size: 15px;
+	}
+
+	/*Music-genre*/
+	.t-genre {
+		display: inline-block;
+	}
+	#genre {
+		overflow: auto;
+	}
+	#g-title {
+		display: none;
+	}
+	#g-detail {
+		width: 450px;
+	}
+	#g-text h5 {
+		font-size: 12px;
+	}
+
+	/*Latest-english and Hindi*/
+	#e-latest {
+		overflow: auto;
+	}
+	.e-detail {
+		margin-right: 5px;
+	}
+	#h-latest {
+		overflow: auto;
+	}
+}
